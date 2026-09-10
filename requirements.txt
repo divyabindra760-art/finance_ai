@@ -1,0 +1,25 @@
+# Milestone 1 - Basic setup and ChatOllama test
+langchain-ollama
+
+# Milestone 2 - RAG Pipeline
+pypdf
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+sentence-transformers
+chromadb
+
+# Milestone 3 - Agent & Tools
+langchain>=0.1.0
+langgraph>=0.0.26
+requests>=2.31.0
+python-dotenv>=1.0.0
+pytest>=7.4.0
+
+# Milestone 4 - Gradio UI
+gradio>=4.0.0
+
+# Future considerations
+streamlit
+yfinance
