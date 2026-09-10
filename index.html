@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvestIQ - AI Investment Research Assistant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+        
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        header p {
+            font-size: 1.4rem;
+            opacity: 0.95;
+        }
+        
+        .main-content {
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            margin: 40px 0;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        .section {
+            margin: 40px 0;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        
+        .feature-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .tech-badge {
+            background: #f0f0f0;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: 600;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+        
+        .cta-section {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px;
+            margin: 40px 0;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            margin: 10px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+        
+        .demo-section {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+        }
+        
+        .demo-section code {
+            background: #2d2d2d;
+            color: #f8f8f8;
+            padding: 20px;
+            border-radius: 10px;
+            display: block;
+            overflow-x: auto;
+            margin: 15px 0;
+            font-size: 0.95rem;
+        }
+        
+        .disclaimer {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            color: #856404;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: white;
+            opacity: 0.9;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .main-content {
+                padding: 30px 20px;
+            }
+            
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔎 InvestIQ</h1>
+            <p>AI-Powered Investment Research Assistant</p>
+            <p style="font-size: 1rem; margin-top: 10px; opacity: 0.9;">Built with ChatOllama, LangChain RAG, ChromaDB, and Gradio</p>
+        </header>
+        
+        <div class="main-content">
+            <!-- Overview -->
+            <div class="section">
+                <h2>🎯 What is InvestIQ?</h2>
+                <p style="font-size: 1.1rem; line-height: 1.8;">
+                    InvestIQ is an intelligent investment research assistant that answers questions about financial documents 
+                    and provides live market data. Built as a hackathon project, it demonstrates the power of combining 
+                    Retrieval-Augmented Generation (RAG) with live API data and agentic AI workflows.
+                </p>
+            </div>
+            
+            <!-- Key Features -->
+            <div class="section">
+                <h2>✨ Key Features</h2>
+                <div class="features">
+                    <div class="feature-card">
+                        <div class="feature-icon">📄</div>
+                        <h3>Financial Document Search</h3>
+                        <p>Query 10-K reports and annual filings using advanced RAG technology. Retrieves relevant information with page citations.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">📈</div>
+                        <h3>Live Market Data</h3>
+                        <p>Real-time stock prices, company fundamentals, and historical data from Alpha Vantage API.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">📰</div>
+                        <h3>News & Sentiment</h3>
+                        <p>Latest financial news with AI-powered sentiment analysis to gauge market perception.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>Intelligent Agent</h3>
+                        <p>LangGraph agent automatically selects the right tools and combines multiple data sources.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">💬</div>
+                        <h3>Chat Interface</h3>
+                        <p>User-friendly Gradio UI with example questions and conversation history.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>100% Local LLM</h3>
+                        <p>Runs on your machine using Ollama - no data sent to external LLM providers.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tech Stack -->
+            <div class="section">
+                <h2>🛠️ Technology Stack</h2>
+                <div class="tech-stack">
+                    <span class="tech-badge">Python 3.13</span>
+                    <span class="tech-badge">ChatOllama (Qwen 0.6B)</span>
+                    <span class="tech-badge">LangChain</span>
+                    <span class="tech-badge">LangGraph</span>
+                    <span class="tech-badge">ChromaDB</span>
+                    <span class="tech-badge">HuggingFace Embeddings</span>
+                    <span class="tech-badge">Alpha Vantage API</span>
+                    <span class="tech-badge">Gradio 6.0</span>
+                    <span class="tech-badge">PyTest</span>
+                </div>
+            </div>
+            
+            <!-- Demo -->
+            <div class="section">
+                <h2>🚀 Quick Start</h2>
+                <div class="demo-section">
+                    <h3>Installation</h3>
+                    <code>git clone https://github.com/divyabindra760-art/finance_ai.git
+cd finance_ai
+pip install -r requirements.txt</code>
+                    
+                    <h3 style="margin-top: 30px;">Run the Application</h3>
+                    <code>python app.py</code>
+                    
+                    <p style="margin-top: 20px;">Then open your browser to <strong>http://127.0.0.1:7861</strong></p>
+                </div>
+            </div>
+            
+            <!-- Example Questions -->
+            <div class="section">
+                <h2>💡 Example Questions</h2>
+                <ul style="font-size: 1.1rem; line-height: 2; list-style: none; padding-left: 0;">
+                    <li>📊 "What was Apple's revenue according to the 10-K?"</li>
+                    <li>💰 "What is Apple's current stock price?"</li>
+                    <li>📈 "What are Apple's financial fundamentals?"</li>
+                    <li>🔍 "Analyze Apple as an investment opportunity"</li>
+                </ul>
+            </div>
+            
+            <!-- Architecture -->
+            <div class="section">
+                <h2>🏗️ Architecture</h2>
+                <p style="font-size: 1.1rem; line-height: 1.8;">
+                    <strong>Milestone 1:</strong> ChatOllama connection test<br>
+                    <strong>Milestone 2:</strong> RAG pipeline with Apple 10-K (365 chunks in ChromaDB)<br>
+                    <strong>Milestone 3:</strong> 5 tools + LangGraph agent (51 tests passing)<br>
+                    <strong>Milestone 4:</strong> Gradio chat interface with disclaimer
+                </p>
+            </div>
+            
+            <!-- Disclaimer -->
+            <div class="disclaimer">
+                <strong>⚠️ Important Disclaimer</strong><br>
+                InvestIQ provides investment research and educational information. <strong>It is not financial advice.</strong> 
+                Always verify information and consult with a qualified financial advisor before making investment decisions.
+            </div>
+            
+            <!-- CTA -->
+            <div class="cta-section">
+                <h2 style="margin-bottom: 20px; font-size: 2.5rem;">Ready to Try InvestIQ?</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 30px;">View the code, read the docs, or contribute!</p>
+                <a href="https://github.com/divyabindra760-art/finance_ai" class="btn" target="_blank">View on GitHub</a>
+                <a href="https://github.com/divyabindra760-art/finance_ai/blob/main/README.md" class="btn" target="_blank">Read Documentation</a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Built for Finance Hackathon 2024</p>
+            <p style="margin-top: 10px;">© 2024 InvestIQ - Open Source Project</p>
+        </footer>
+    </div>
+</body>
+</html>
