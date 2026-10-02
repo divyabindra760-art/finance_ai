@@ -1,0 +1,11 @@
+ticker,name,asset_class,expense_ratio,base_price,annual_volatility
+SPY,SPDR S&P 500 ETF Trust,EQUITY,0.0009,542.5,0.16
+QQQ,Invesco QQQ Trust (Nasdaq-100),EQUITY,0.002,478.2,0.22
+BND,Vanguard Total Bond Market ETF,FIXED_INCOME,0.0003,72.8,0.06
+TLT,iShares 20+ Year Treasury Bond ETF,FIXED_INCOME,0.0015,93.4,0.14
+VNQ,Vanguard Real Estate ETF,REAL_ESTATE,0.0012,86.1,0.18
+GLD,SPDR Gold Shares,COMMODITY,0.004,224.5,0.15
+BIL,SPDR Bloomberg 1-3 Month T-Bill ETF,CASH_EQUIVALENT,0.0014,91.65,0.01
+NVDA,NVIDIA Corporation,EQUITY,0.0,128.4,0.42
+MSFT,Microsoft Corporation,EQUITY,0.0,448.9,0.2
+AAPL,Apple Inc.,EQUITY,0.0,224.3,0.21

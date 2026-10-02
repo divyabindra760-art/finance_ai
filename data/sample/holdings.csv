@@ -1,0 +1,8 @@
+holding_id,user_id,account_id,ticker,asset_class,quantity,average_cost,current_price,market_value
+hld_001,usr_001,acc_001,SPY,EQUITY,180.0,490.1,542.5,97650.0
+hld_002,usr_001,acc_001,QQQ,EQUITY,110.0,420.3,478.2,52602.0
+hld_003,usr_001,acc_001,NVDA,EQUITY,180.0,95.4,128.4,23112.0
+hld_004,usr_001,acc_001,BND,FIXED_INCOME,600.0,71.5,72.8,43680.0
+hld_005,usr_001,acc_001,TLT,FIXED_INCOME,260.0,95.8,93.4,24284.0
+hld_006,usr_001,acc_001,GLD,COMMODITY,65.0,205.0,224.5,14592.5
+hld_007,usr_001,acc_001,BIL,CASH_EQUIVALENT,310.0,91.5,91.65,28411.5

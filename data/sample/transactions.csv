@@ -1,0 +1,93 @@
+transaction_id,user_id,account_id,date,merchant,category,amount,type,is_recurring
+tx_1001,usr_001,acc_001,2026-04-01,Tech Global Inc - Payroll,INCOME,8750.0,CREDIT,1
+tx_1003,usr_001,acc_001,2026-04-01,Highline Luxury Living,HOUSING,3200.0,DEBIT,1
+tx_1011,usr_001,acc_001,2026-04-02,Bloomberg Terminal / AWS Cloud,SUBSCRIPTION,371.56,DEBIT,1
+tx_1007,usr_001,acc_001,2026-04-03,Nobu Downtown,FOOD_DINING,252.47,DEBIT,0
+tx_1008,usr_001,acc_001,2026-04-09,Whole Foods Market,FOOD_GROCERIES,145.24,DEBIT,0
+tx_1004,usr_001,acc_001,2026-04-10,Nobu Downtown,FOOD_DINING,210.77,DEBIT,0
+tx_1012,usr_001,acc_001,2026-04-12,Blue Bottle Coffee,FOOD_DINING,9.01,DEBIT,0
+tx_1015,usr_001,acc_001,2026-04-13,Nobu Downtown,FOOD_DINING,235.4,DEBIT,0
+tx_1014,usr_001,acc_001,2026-04-14,Uber Black,TRANSPORT,37.43,DEBIT,0
+tx_1002,usr_001,acc_001,2026-04-15,Tech Global Inc - Payroll,INCOME,8750.0,CREDIT,1
+tx_1006,usr_001,acc_001,2026-04-19,Nobu Downtown,FOOD_DINING,258.83,DEBIT,0
+tx_1010,usr_001,acc_001,2026-04-20,Equinox Fitness,HEALTH,270.26,DEBIT,1
+tx_1009,usr_001,acc_001,2026-04-24,Whole Foods Market,FOOD_GROCERIES,168.44,DEBIT,0
+tx_1005,usr_001,acc_001,2026-04-25,ConEdison Electric,UTILITIES,133.14,DEBIT,1
+tx_1013,usr_001,acc_001,2026-04-26,Bloomberg Terminal / AWS Cloud,SUBSCRIPTION,304.86,DEBIT,1
+tx_1016,usr_001,acc_001,2026-05-01,Tech Global Inc - Payroll,INCOME,8750.0,CREDIT,1
+tx_1018,usr_001,acc_001,2026-05-01,Highline Luxury Living,HOUSING,3200.0,DEBIT,1
+tx_1031,usr_001,acc_001,2026-05-01,Tech Global Inc - Payroll,INCOME,8750.0,CREDIT,1
+tx_1033,usr_001,acc_001,2026-05-01,Highline Luxury Living,HOUSING,3200.0,DEBIT,1
+tx_1035,usr_001,acc_001,2026-05-03,Whole Foods Market,FOOD_GROCERIES,151.96,DEBIT,0
+tx_1044,usr_001,acc_001,2026-05-03,Delta Air Lines,TRAVEL,596.55,DEBIT,0
+tx_1036,usr_001,acc_001,2026-05-04,Uber Black,TRANSPORT,41.24,DEBIT,0
+tx_1040,usr_001,acc_001,2026-05-06,Delta Air Lines,TRAVEL,607.15,DEBIT,0
+tx_1043,usr_001,acc_001,2026-05-06,Equinox Fitness,HEALTH,282.79,DEBIT,1
+tx_1028,usr_001,acc_001,2026-05-07,Nobu Downtown,FOOD_DINING,253.85,DEBIT,0
+tx_1045,usr_001,acc_001,2026-05-07,Nobu Downtown,FOOD_DINING,220.2,DEBIT,0
+tx_1023,usr_001,acc_001,2026-05-09,Nobu Downtown,FOOD_DINING,212.31,DEBIT,0
+tx_1024,usr_001,acc_001,2026-05-09,Bloomberg Terminal / AWS Cloud,SUBSCRIPTION,389.49,DEBIT,1
+tx_1026,usr_001,acc_001,2026-05-13,Uber Black,TRANSPORT,38.2,DEBIT,0
+tx_1020,usr_001,acc_001,2026-05-14,Delta Air Lines,TRAVEL,687.39,DEBIT,0
+tx_1029,usr_001,acc_001,2026-05-14,ConEdison Electric,UTILITIES,130.54,DEBIT,1
+tx_1017,usr_001,acc_001,2026-05-15,Tech Global Inc - Payroll,INCOME,8750.0,CREDIT,1
+tx_1032,usr_001,acc_001,2026-05-15,Tech Global Inc - Payroll,INCOME,8750.0,CREDIT,1
+tx_1042,usr_001,acc_001,2026-05-15,Bloomberg Terminal / AWS Cloud,SUBSCRIPTION,365.2,DEBIT,1
+tx_1025,usr_001,acc_001,2026-05-16,Nobu Downtown,FOOD_DINING,236.96,DEBIT,0
+tx_1038,usr_001,acc_001,2026-05-17,Uber Black,TRANSPORT,38.84,DEBIT,0
+tx_1041,usr_001,acc_001,2026-05-19,ConEdison Electric,UTILITIES,155.87,DEBIT,1
+tx_1037,usr_001,acc_001,2026-05-20,ConEdison Electric,UTILITIES,163.2,DEBIT,1
+tx_1030,usr_001,acc_001,2026-05-22,Bloomberg Terminal / AWS Cloud,SUBSCRIPTION,389.93,DEBIT,1
+tx_1039,usr_001,acc_001,2026-05-22,Equinox Fitness,HEALTH,329.04,DEBIT,1
+tx_1022,usr_001,acc_001,2026-05-24,Uber Black,TRANSPORT,43.49,DEBIT,0
+tx_1027,usr_001,acc_001,2026-05-24,ConEdison Electric,UTILITIES,152.61,DEBIT,1
+tx_1019,usr_001,acc_001,2026-05-25,Bloomberg Terminal / AWS Cloud,SUBSCRIPTION,371.33,DEBIT,1
+tx_1021,usr_001,acc_001,2026-05-28,Nobu Downtown,FOOD_DINING,249.64,DEBIT,0
+tx_1034,usr_001,acc_001,2026-05-28,ConEdison Electric,UTILITIES,153.24,DEBIT,1
+tx_1046,usr_001,acc_001,2026-06-01,Tech Global Inc - Payroll,INCOME,8750.0,CREDIT,1
+tx_1048,usr_001,acc_001,2026-06-01,Highline Luxury Living,HOUSING,3200.0,DEBIT,1
+tx_1051,usr_001,acc_001,2026-06-02,Bloomberg Terminal / AWS Cloud,SUBSCRIPTION,388.05,DEBIT,1
+tx_1057,usr_001,acc_001,2026-06-05,Blue Bottle Coffee,FOOD_DINING,8.52,DEBIT,0
+tx_1054,usr_001,acc_001,2026-06-07,Nobu Downtown,FOOD_DINING,230.57,DEBIT,0
+tx_1053,usr_001,acc_001,2026-06-12,Bloomberg Terminal / AWS Cloud,SUBSCRIPTION,367.4,DEBIT,1
+tx_1049,usr_001,acc_001,2026-06-14,Equinox Fitness,HEALTH,303.53,DEBIT,1
+tx_1047,usr_001,acc_001,2026-06-15,Tech Global Inc - Payroll,INCOME,8750.0,CREDIT,1
+tx_1050,usr_001,acc_001,2026-06-16,Equinox Fitness,HEALTH,303.49,DEBIT,1
+tx_1058,usr_001,acc_001,2026-06-18,Bloomberg Terminal / AWS Cloud,SUBSCRIPTION,374.85,DEBIT,1
+tx_1052,usr_001,acc_001,2026-06-19,Nobu Downtown,FOOD_DINING,259.2,DEBIT,0
+tx_1055,usr_001,acc_001,2026-06-25,Delta Air Lines,TRAVEL,578.66,DEBIT,0
+tx_1056,usr_001,acc_001,2026-06-26,Bloomberg Terminal / AWS Cloud,SUBSCRIPTION,388.13,DEBIT,1
+tx_1059,usr_001,acc_001,2026-06-26,ConEdison Electric,UTILITIES,130.08,DEBIT,1
+tx_1060,usr_001,acc_001,2026-06-26,Blue Bottle Coffee,FOOD_DINING,8.6,DEBIT,0
+tx_1061,usr_001,acc_001,2026-07-01,Tech Global Inc - Payroll,INCOME,8750.0,CREDIT,1
+tx_1063,usr_001,acc_001,2026-07-01,Highline Luxury Living,HOUSING,3200.0,DEBIT,1
+tx_1066,usr_001,acc_001,2026-07-09,Bloomberg Terminal / AWS Cloud,SUBSCRIPTION,313.42,DEBIT,1
+tx_1074,usr_001,acc_001,2026-07-09,Delta Air Lines,TRAVEL,602.68,DEBIT,0
+tx_1065,usr_001,acc_001,2026-07-13,Whole Foods Market,FOOD_GROCERIES,146.14,DEBIT,0
+tx_1072,usr_001,acc_001,2026-07-14,ConEdison Electric,UTILITIES,154.48,DEBIT,1
+tx_1062,usr_001,acc_001,2026-07-15,Tech Global Inc - Payroll,INCOME,8750.0,CREDIT,1
+tx_1064,usr_001,acc_001,2026-07-17,Whole Foods Market,FOOD_GROCERIES,170.31,DEBIT,0
+tx_1067,usr_001,acc_001,2026-07-17,Nobu Downtown,FOOD_DINING,215.25,DEBIT,0
+tx_1069,usr_001,acc_001,2026-07-17,Blue Bottle Coffee,FOOD_DINING,7.55,DEBIT,0
+tx_1073,usr_001,acc_001,2026-07-18,Uber Black,TRANSPORT,41.71,DEBIT,0
+tx_1068,usr_001,acc_001,2026-07-19,Nobu Downtown,FOOD_DINING,281.05,DEBIT,0
+tx_1071,usr_001,acc_001,2026-07-19,Equinox Fitness,HEALTH,336.1,DEBIT,1
+tx_1075,usr_001,acc_001,2026-07-20,Nobu Downtown,FOOD_DINING,233.86,DEBIT,0
+tx_1070,usr_001,acc_001,2026-07-21,Blue Bottle Coffee,FOOD_DINING,7.9,DEBIT,0
+tx_1076,usr_001,acc_001,2026-08-01,Tech Global Inc - Payroll,INCOME,8750.0,CREDIT,1
+tx_1078,usr_001,acc_001,2026-08-01,Highline Luxury Living,HOUSING,3200.0,DEBIT,1
+tx_1079,usr_001,acc_001,2026-08-02,ConEdison Electric,UTILITIES,149.05,DEBIT,1
+tx_1080,usr_001,acc_001,2026-08-03,Nobu Downtown,FOOD_DINING,261.13,DEBIT,0
+tx_1081,usr_001,acc_001,2026-08-03,ConEdison Electric,UTILITIES,126.36,DEBIT,1
+tx_1088,usr_001,acc_001,2026-08-03,Delta Air Lines,TRAVEL,754.22,DEBIT,0
+tx_1086,usr_001,acc_001,2026-08-05,Equinox Fitness,HEALTH,267.6,DEBIT,1
+tx_1090,usr_001,acc_001,2026-08-05,Uber Black,TRANSPORT,46.33,DEBIT,0
+tx_1083,usr_001,acc_001,2026-08-08,Bloomberg Terminal / AWS Cloud,SUBSCRIPTION,357.24,DEBIT,1
+tx_1082,usr_001,acc_001,2026-08-09,Uber Black,TRANSPORT,37.03,DEBIT,0
+tx_1091,usr_001,acc_001,2026-08-14,Rolex Boutique Fifth Ave,LUXURY_PURCHASE,14200.0,DEBIT,0
+tx_1077,usr_001,acc_001,2026-08-15,Tech Global Inc - Payroll,INCOME,8750.0,CREDIT,1
+tx_1087,usr_001,acc_001,2026-08-15,Equinox Fitness,HEALTH,282.11,DEBIT,1
+tx_1085,usr_001,acc_001,2026-08-17,Delta Air Lines,TRAVEL,627.57,DEBIT,0
+tx_1084,usr_001,acc_001,2026-08-20,Blue Bottle Coffee,FOOD_DINING,9.07,DEBIT,0
+tx_1089,usr_001,acc_001,2026-08-25,Nobu Downtown,FOOD_DINING,213.4,DEBIT,0
+tx_1092,usr_001,acc_001,2026-09-02,Private Jet Charter Global,TRAVEL,9850.0,DEBIT,0

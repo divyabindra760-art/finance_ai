@@ -1,0 +1,4 @@
+account_id,user_id,name,type,currency,cash_balance
+acc_001,usr_001,Apex Primary Brokerage,TAXABLE_BROKERAGE,USD,28460.0
+acc_002,usr_001,Silicon Treasury Liquidity,HIGH_YIELD_SAVINGS,USD,45000.0
+acc_003,usr_002,Founders Operating Account,BUSINESS_CHECKING,USD,82000.0
