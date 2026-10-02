@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  
+  body {
+    background-color: #FFFFFF;
+    color: #08090C;
+  }
+}
+
+/* Subtle Technical Grid Background */
+.bg-tech-grid {
+  background-color: #FFFFFF;
+  background-image: 
+    linear-gradient(to right, rgba(8, 9, 12, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(8, 9, 12, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.bg-tech-grid-dense {
+  background-image: 
+    linear-gradient(to right, rgba(8, 9, 12, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(8, 9, 12, 0.06) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.bg-tech-grid-dark {
+  background-color: #08090C;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+/* Double-border frame utility */
+.double-frame {
+  border: 1px solid #08090C;
+  position: relative;
+}
+.double-frame::before {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  border: 1px solid #08090C;
+  pointer-events: none;
+}
+
+/* Hard brutalist offset buttons and cards */
+.brutal-btn {
+  transition: transform 0.15s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.brutal-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px 0px #08090C;
+}
+.brutal-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px 0px #08090C;
+}
+
+.brutal-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.brutal-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 6px 6px 0px 0px #08090C;
+}
+
+/* Corner bracket marks */
+.corner-bracket {
+  position: relative;
+}
+.corner-bracket::before {
+  content: '+';
+  position: absolute;
+  top: -8px;
+  left: -6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  color: #08090C;
+  line-height: 1;
+}
+.corner-bracket::after {
+  content: '+';
+  position: absolute;
+  bottom: -8px;
+  right: -6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  color: #08090C;
+  line-height: 1;
+}
+
+/* Precision scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F3F5;
+  border-left: 1px solid #E2E8F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #08090C;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0052FF;
+}
